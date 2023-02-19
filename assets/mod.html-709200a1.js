@@ -1,0 +1,27 @@
+import{_ as i,W as l,X as r,Y as e,Z as n,$ as o,a0 as s,E as t}from"./framework-1046fca1.js";const d={},c=s(`<div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>//目标 repo 有哪些版本
+go list <span class="token parameter variable">-m</span> <span class="token parameter variable">-versions</span> repo
+
+//实际最终使用那个版本的repo
+go list <span class="token parameter variable">-m</span> all<span class="token operator">|</span><span class="token function">grep</span> repo
+
+// 某个repo 被依赖的list
+go mod graph <span class="token operator">|</span><span class="token function">grep</span> repo
+
+// 某个repo 被引用的链路
+go mod why repo
+
+
+go get <span class="token punctuation">[</span>option<span class="token punctuation">]</span> repo
+<span class="token parameter variable">-t</span> flag：考虑构建测试所需的module。
+<span class="token parameter variable">-d</span> flag：下载每个module的源代码，但不要构建或安装它们。
+<span class="token parameter variable">-v</span> flag：提供详细输出。
+./… ：在整个源代码树中执行这些操作，并且仅更新所需的依赖项。
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,1),p={href:"https://www.cnblogs.com/apocelipes/p/9537659.html",target:"_blank",rel:"noopener noreferrer"},v=s(`<p>![image-20230202173900648](/Users/zhou/Nutstore Files/我的坚果云/读书笔记/img/go-mod-replace-demo.png)</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>
+
+go mod edit <span class="token parameter variable">-replace</span><span class="token operator">=</span>go-live<span class="token operator">=</span>git.bilibili.co/live-dev/go-live@master
+
+@latest 优先tag，有tag则最新tag，没有则最新commit
+@master master分支的最新commit
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2);function m(u,b){const a=t("ExternalLinkIcon");return l(),r("div",null,[c,e("p",null,[n("参考："),e("a",p,[n("https://www.cnblogs.com/apocelipes/p/9537659.html"),o(a)])]),v])}const h=i(d,[["render",m],["__file","mod.html.vue"]]);export{h as default};
