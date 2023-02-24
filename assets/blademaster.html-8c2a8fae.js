@@ -1,0 +1,1 @@
+import{_ as t,V as a,W as s,X as e,Y as r}from"./framework-7d796c00.js";const c={},o=e("h1",{id:"bm框架",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#bm框架","aria-hidden":"true"},"#"),r(" bm框架")],-1),n=e("p",null,"b站自研http框架",-1),_=[o,n];function d(l,h){return a(),s("div",null,_)}const m=t(c,[["render",d],["__file","blademaster.html.vue"]]);export{m as default};
