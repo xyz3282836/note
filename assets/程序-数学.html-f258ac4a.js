@@ -1,1 +1,0 @@
-import{_ as t,W as _,X as a,Y as e,Z as c}from"./framework-52f8fb67.js";const r={},s=e("h1",{id:"奇偶校验",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#奇偶校验","aria-hidden":"true"},"#"),c(" 奇偶校验")],-1),o=[s];function n(d,i){return _(),a("div",null,o)}const l=t(r,[["render",n],["__file","程序-数学.html.vue"]]);export{l as default};

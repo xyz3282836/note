@@ -1,1 +1,0 @@
-import{_ as a,W as t,X as c,Y as e,Z as r}from"./framework-52f8fb67.js";const s={},o=e("h1",{id:"kafka",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#kafka","aria-hidden":"true"},"#"),r(" kafka")],-1),n=[o];function _(d,f){return t(),c("div",null,n)}const i=a(s,[["render",_],["__file","kafka.html.vue"]]);export{i as default};

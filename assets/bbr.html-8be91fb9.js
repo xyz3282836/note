@@ -1,0 +1,1 @@
+import{_ as r,W as t,X as a,Z as e,$ as c}from"./framework-c08a2544.js";const s={},o=e("h1",{id:"bbr",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#bbr","aria-hidden":"true"},"#"),c(" bbr")],-1),n=[o];function _(d,b){return t(),a("div",null,n)}const h=r(s,[["render",_],["__file","bbr.html.vue"]]);export{h as default};
