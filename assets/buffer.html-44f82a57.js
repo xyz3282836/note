@@ -1,0 +1,1 @@
+import{_ as r,W as t,X as a,Z as e,$ as c}from"./framework-2fbbe1ff.js";const f={},s=e("h1",{id:"buffer",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#buffer","aria-hidden":"true"},"#"),c(" buffer")],-1),o=[s];function n(_,d){return t(),a("div",null,o)}const u=r(f,[["render",n],["__file","buffer.html.vue"]]);export{u as default};

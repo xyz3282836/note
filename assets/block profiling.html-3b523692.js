@@ -1,1 +1,0 @@
-import{_ as o,W as c,X as r,Z as e,$ as t}from"./framework-3ab8bde0.js";const i={},n=e("h1",{id:"block-profiling",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#block-profiling","aria-hidden":"true"},"#"),t(" block profiling")],-1),a=[n];function l(s,_){return c(),r("div",null,a)}const f=o(i,[["render",l],["__file","block profiling.html.vue"]]);export{f as default};
