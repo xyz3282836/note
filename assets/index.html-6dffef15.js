@@ -1,0 +1,1 @@
+import{_ as a,X as o,Y as t,a3 as n,$ as s,a1 as c,E as l}from"./framework-418c825b.js";const r={},_={class:"catalog-display-container"};function d(i,m){const e=l("AutoCatalog");return o(),t("div",null,[n(" markdownlint-disable MD033 "),s("div",_,[c(e,{base:"/"})])])}const p=a(r,[["render",d],["__file","index.html.vue"]]);export{p as default};
