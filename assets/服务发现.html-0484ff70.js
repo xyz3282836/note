@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o as a,c as o,b as e,d as r}from"./app-339f552b.js";const _={},c=e("h1",{id:"服务发现",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#服务发现","aria-hidden":"true"},"#"),r(" 服务发现")],-1),s=[c];function n(d,i){return a(),o("div",null,s)}const f=t(_,[["render",n],["__file","服务发现.html.vue"]]);export{f as default};
